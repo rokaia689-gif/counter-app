@@ -1,0 +1,46 @@
+body{
+    background-color: blueviolet;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh ;
+    flex-direction: column;
+    
+}
+h1{
+    color: white;
+}
+h2{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+button{
+    margin-top: 15px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color : white;
+    color:brown;
+}
+
+
+
+#increase:hover{
+    background-color : green;
+    color:white;
+    transform: scale(1.5);
+}
+#decrease:hover{
+    background-color : blue;
+    color:white;
+    transform: scale(1.5);
+}
+#reset:hover{
+    background-color : red;
+    color:white;
+    transform: scale(1.5);
+}
