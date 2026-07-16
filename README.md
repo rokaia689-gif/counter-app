@@ -15,3 +15,6 @@ A simple counter application built with HTML, CSS, and JavaScript.
 - HTML
 - CSS
 - JavaScript
+## Screenshot
+
+![Counter App](counter.PNG)
