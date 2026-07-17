@@ -1,46 +1,68 @@
-body{
-    background-color: blueviolet;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    height:100vh ;
-    flex-direction: column;
-    
-}
 h1{
-    color: white;
-}
-h2{
+    display: flex;
     font-size: 70px;
     font-weight: bold;
-    margin-top: 50px;
+    justify-content: center;
+    color: #1B5E20;
+}
+#count{
+    
+    font-size: 50px;
+    font-weight: bold;
+    
+    color: #1B5E20;
+}
+body{
+    text-align: center;
+    background-image: url(eslamic.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 button{
-    margin-top: 15px;
-    padding: 30px;
-    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+    margin: 25px 10px 10px;
+    margin-top: 25px;
+   background-color:#2e7d32 ;
+
     cursor: pointer;
-    
+    border-radius: 70px;
+    border-color: aquamarine;
+   
 }
 button:hover{
-    background-color : white;
-    color:brown;
+    background-color: #1B5E20;
 }
+#zekr{
+    margin-top: 30px;
+}
+#zekr span{
+    
+    font-size: 50px;
+    font-weight: bold;
+    color:black;
+    margin-top: 30px; 
+    border:2px solid #81c784;
+    background-color: #ffffff;
+    border-radius: 12px; 
+    padding:1px 4px;
+    width: fit-content;
+    margin: 10px auto;
 
 
-
-#increase:hover{
-    background-color : green;
-    color:white;
-    transform: scale(1.5);
+    
 }
-#decrease:hover{
-    background-color : blue;
-    color:white;
-    transform: scale(1.5);
-}
-#reset:hover{
-    background-color : red;
-    color:white;
-    transform: scale(1.5);
+#circle{
+    width: 220px;
+    height: 220px;
+    background-color: #f8fff8;
+    border: 5px solid #8bc34a;
+    border-radius: 50%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
